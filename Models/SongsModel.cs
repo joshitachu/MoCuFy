@@ -49,10 +49,15 @@ namespace MoCuFy.Models
         }
 
         private bool _isSelected = false;
-        public bool isSelected
+        public bool ssSelected
         {
             get { return _isSelected; }
             set { _isSelected = value; OnPropertyChanged("isSelected"); }
+        }
+
+        public SongsModel()
+        {
+
         }
     }
 }
