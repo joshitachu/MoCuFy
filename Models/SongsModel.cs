@@ -49,7 +49,7 @@ namespace MoCuFy.Models
         }
 
         private bool _isSelected = false;
-        public bool ssSelected
+        public bool isSelected
         {
             get { return _isSelected; }
             set { _isSelected = value; OnPropertyChanged("isSelected"); }
